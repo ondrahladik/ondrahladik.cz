@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Ondřej Hladík</title>
+  <meta name="description" content="Moje projekty a kontakt pro spolupráci.">
+  <meta name="author" content="Ondřej Hladík">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/fav/site.webmanifest">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Hero sekce -->
+<section class="hero">
+  <div>
+    <h1>Ondřej Hladík</h1>
+    <a href="#" onclick="document.getElementById('projekty').scrollIntoView({behavior: 'smooth'}); return false;" class="btn btn-light btn-lg mt-3">
+      Podívej se na projekty
+    </a>
+  </div>
+</section>
+
+<section id="projekty" class="container py-5">
+  <h2 class="section-title">Moje projekty</h2>
+  <div class="row g-4 justify-content-center">
+
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <a href="https://wxmet.cz" target="_blank">
+      <div class="card h-100 project">
+        <img src="assets/img/projekty/wxmet.cz.png" alt="wxmet.cz">
+        <div class="card-body">
+          <h5 class="card-title">wxmet.cz</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <a href="https://ukuliska.cz" target="_blank">
+      <div class="card h-100 project">
+        <img src="assets/img/projekty/ukuliska.cz.png" alt="ukuliska.cz">
+        <div class="card-body">
+          <h5 class="card-title">ukuliska.cz</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <a href="https://kpvh98.cz" target="_blank">
+      <div class="card h-100 project">
+        <img src="assets/img/projekty/kpvh98.cz.png" alt="kpvh98.cz">
+        <div class="card-body">
+          <h5 class="card-title">kpvh98.cz</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <a href="https://amaradio.eu" target="_blank">
+      <div class="card h-100 project">
+        <img src="assets/img/projekty/amaradio.eu.png" alt="amaradio.eu">
+        <div class="card-body">
+          <h5 class="card-title">amaradio.eu</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <a href="https://www.ok1kky.cz" target="_blank">
+      <div class="card h-100 project">
+        <img src="assets/img/projekty/ok1kky.cz.png" alt="ok1kky.cz">
+        <div class="card-body">
+          <h5 class="card-title">ok1kky.cz</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Kontakt -->
+<section id="contact" class="contact mt-3">
+  <h2>Kontakt</h2>
+  <p class="d-none d-sm-block">Máš zájem o spolupráci? Ozvi se mi na e-mail.</p>
+  <p class="d-block d-sm-none">Máš zájem o spolupráci?<br>Ozvi se mi na e-mail.</p>
+  <a href="mailto:ondra@ok1kky.cz" class="btn btn-light btn-lg">
+    <i class="bi bi-envelope-fill me-2"></i>Napiš mi
+  </a>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; <?php echo date("Y"); ?> Ondřej Hladík</p>
+  <p>
+    <a href="https://www.facebook.com/hladik.ondra/" target="_blank"><i class="bi bi-facebook fs-5 me-2"></i></a>
+    <a href="https://twitter.com/OndraHladk" target="_blank"><i class="bi bi-twitter-x fs-5 me-2"></i></a>
+    <a href="https://github.com/ondrahladik" target="_blank"><i class="bi bi-github fs-5"></i></a>
+  </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
